@@ -1,0 +1,32 @@
+.app-shell .conversation-layout {
+  position: relative;
+  grid-template-columns: var(--panel-queue, 280px) minmax(0, 1fr) var(--panel-side, 380px);
+  grid-template-rows: minmax(0, 1fr);
+  grid-template-areas: "queue chat advice";
+  overflow: hidden;
+}
+.app-shell .conversation-layout > .queue-panel { grid-area: queue; padding-bottom: 40px; }
+.app-shell .conversation-layout > .conversation-workspace { grid-area: chat; min-height: 0; }
+.app-shell .conversation-layout > .advice-panel { grid-area: advice; min-height: 0; border-left: 1px solid var(--line); border-top: 0; }
+.app-shell .conversation-layout > .inbox-welcome { grid-area: 1 / 2 / -1 / 4; }
+.app-shell.design-B .conversation-layout {
+  grid-template-rows: var(--panel-top, 54%) minmax(0, 1fr);
+  grid-template-areas: "queue chat crm" "queue advice crm";
+}
+.app-shell.design-B .conversation-layout > .advice-panel { border-left: 0; border-top: 1px solid var(--line); }
+.app-shell.design-B .conversation-layout > .conversation-crm-panel { grid-area: crm; max-height: none; }
+.panel-resize-handle { position: absolute; z-index: 8; display: flex; align-items: center; justify-content: center; touch-action: none; outline: none; }
+.panel-resize-x { width: 10px; top: 0; bottom: 0; margin-left: -5px; margin-right: -5px; cursor: col-resize; }
+.panel-resize-y { height: 10px; margin-top: -5px; cursor: row-resize; }
+.panel-resize-handle > span { display: block; border-radius: 2px; background: var(--line-strong); transition: background-color 120ms ease; }
+.panel-resize-x > span { width: 3px; height: 36px; }
+.panel-resize-y > span { width: 36px; height: 3px; }
+.panel-resize-handle:hover, .panel-resize-handle:focus-visible, .panel-resize-handle.is-dragging { background: var(--accent-softer); }
+.panel-resize-handle:hover > span, .panel-resize-handle:focus-visible > span, .panel-resize-handle.is-dragging > span { background: var(--text-2); }
+.panel-resize-handle:focus-visible { outline: 2px solid var(--text-2); outline-offset: -2px; }
+.panel-layout-reset { position: absolute; left: 12px; bottom: 8px; z-index: 9; padding: 4px 7px; min-height: 26px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--text-2); font: inherit; font-size: 11px; cursor: pointer; }
+.panel-layout-reset:hover { background: var(--hover); color: var(--text); }
+.panel-layout-reset:focus-visible { outline: 2px solid var(--text-2); outline-offset: 2px; }
+html.panel-resizing-x, html.panel-resizing-x * { cursor: col-resize !important; user-select: none !important; }
+html.panel-resizing-y, html.panel-resizing-y * { cursor: row-resize !important; user-select: none !important; }
+@media (prefers-reduced-motion: reduce) { .panel-resize-handle > span { transition: none; } }

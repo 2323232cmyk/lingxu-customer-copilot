@@ -1,0 +1,12 @@
+const { buildSync } = require('esbuild');
+const { writeFileSync, readFileSync } = require('node:fs');
+const Module = require('node:module');
+const path = require('node:path');
+const output = buildSync({ stdin: { contents: `import React from 'react'; import { renderToStaticMarkup } from 'react-dom/server'; import { WechatMessageBody } from './src/app/wechat-media';
+const texts=['[位置]\\n公司\\n杭州市示例地址\\n纬度 30.2，经度 120.1','[文件]\\n示例合同.pdf\\n大小：2,048 字节','[链接与分享]\\n示例业务资料\\n资料摘要\\nhttps://example.com/example'];
+export default renderToStaticMarkup(<main><p>合成消息展示验收，不是真实聊天。</p>{texts.map((text,i)=><section key={i} className="message-bubble"><WechatMessageBody message={{id:String(i),contactKey:'test',sender:'test',direction:'incoming',text,messageType:'other',attachmentKind:i===1?'file':undefined,sentAt:'2026-09-08',observedAt:'2026-09-08'}} /></section>)}</main>);`, resolveDir: process.cwd(), loader: 'tsx' }, bundle: true, platform: 'node', format: 'cjs', write: false });
+const mod = new Module(path.resolve('outputs/message-card-render.cjs'), module);
+mod.filename = path.resolve('outputs/message-card-render.cjs'); mod.paths = module.paths;
+mod._compile(output.outputFiles[0].text, mod.filename);
+const css = readFileSync('src/index.css', 'utf8') + readFileSync('src/app/workspace-theme.css', 'utf8');
+writeFileSync('outputs/message-card-synthetic.html', `<!doctype html><meta charset="utf-8"><style>${css}</style>${mod.exports.default}`);

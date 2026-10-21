@@ -1,0 +1,71 @@
+{
+  "name": "lingxu-customer-copilot-public",
+  "productName": "领序·客户参谋（公开版）",
+  "version": "0.11.5",
+  "description": "Windows customer conversation copilot — sanitized public source snapshot",
+  "main": ".vite/build/main.js",
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "release:windows": "npm run make && node scripts/stage-windows-release.cjs",
+    "lint": "eslint --ext .ts,.tsx .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run src",
+    "build:check": "node scripts/build-check.cjs",
+    "ui:prepare": "node scripts/ui-redesign-smoke.cjs",
+    "test:ui": "node scripts/ui-redesign-smoke.cjs --run",
+    "native:prepare": "node scripts/native-runtime-prepare.cjs",
+    "native:verify": "node scripts/native-resource-verify.cjs",
+    "prepackage": "npm run native:prepare && npm run native:verify && node scripts/chart-license-prepare.cjs",
+    "premake": "npm run native:prepare && npm run native:verify && node scripts/chart-license-prepare.cjs",
+    "native:smoke": "node scripts/native-load-smoke.cjs",
+    "native:download": "node scripts/prepare-public-native.cjs"
+  },
+  "keywords": [],
+  "author": "Lingxu contributors",
+  "license": "UNLICENSED",
+  "overrides": {
+    "@electron/rebuild": "4.2.0",
+    "external-editor": {
+      "tmp": "0.2.7"
+    }
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.2",
+    "@electron-forge/maker-squirrel": "^7.11.2",
+    "@electron-forge/plugin-fuses": "^7.11.2",
+    "@electron-forge/plugin-vite": "^7.11.2",
+    "@electron/fuses": "^1.8.0",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "electron": "44.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.32.0",
+    "typescript": "^5.9.2",
+    "vite": "6.4.3",
+    "vitest": "4.1.11"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.74.7",
+    "@fluentui/react-icons": "^2.0.339",
+    "@koromix/koffi-win32-x64": "3.1.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "fflate": "0.8.3",
+    "koffi": "3.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "3.10.1",
+    "sherpa-onnx-node": "1.13.3",
+    "sherpa-onnx-win-x64": "1.13.3",
+    "silk-wasm": "3.7.1"
+  }
+}

@@ -1,0 +1,10 @@
+.wb-crm-columns.feature-resizable-columns,
+.fv-export-columns.feature-resizable-columns {
+  position: relative;
+  grid-template-columns: minmax(0, var(--feature-list-size, 340px)) minmax(0, 1fr);
+}
+
+@media (max-width: 760px) {
+  .fv-export-columns.feature-resizable-columns { grid-template-columns: minmax(0, 1fr); }
+  .fv-export-columns.feature-resizable-columns > .panel-resize-handle { display: none; }
+}

@@ -1,0 +1,47 @@
+name: Source checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows-source:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked dependencies without lifecycle scripts
+        run: npm ci --ignore-scripts --no-fund
+      - name: Download and verify public native dependency
+        run: npm run native:download
+      - name: Prepare and verify native bridge
+        run: npm run native:prepare && npm run native:verify
+      - name: Check types
+        run: npm run typecheck
+      - name: Check code
+        run: npm run lint -- --max-warnings=0
+      - name: Run synthetic unit and boundary tests
+        run: npm test
+      - name: Build production source bundles without running the app
+        run: npm run build:check
+      - name: Prepare the isolated synthetic interface
+        run: npm run ui:prepare
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=moderate

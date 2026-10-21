@@ -1,0 +1,32 @@
+{
+  "sourceProduct": "SQLite3 Multiple Ciphers",
+  "sourceVersion": "2.5.1",
+  "platform": "win32",
+  "architecture": "x64",
+  "resources": [
+    {
+      "relativePath": "sqlite3mc.dll",
+      "size": 2442576,
+      "sha256": "5030decc6d914539e3b9b7e28aa4f6de1e7161dac6fd4b21eb02e6754d9b175e",
+      "purpose": "sqlite-reader"
+    },
+    {
+      "relativePath": "LICENSE",
+      "size": 1095,
+      "sha256": "54b6f21239a5eddb9f12bb47b91b9d36ea5a16e86b1c324a13bf943b875a7449",
+      "purpose": "license"
+    },
+    {
+      "relativePath": "wcdb-key-tool-LICENSE",
+      "size": 1080,
+      "sha256": "c9e2f8dbaf8361e6bdb1b1952d38908f1265b775f0292a9d3c81d066d131c695",
+      "purpose": "license"
+    },
+    {
+      "relativePath": "wechatauto-replica-LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "purpose": "license"
+    }
+  ]
+}

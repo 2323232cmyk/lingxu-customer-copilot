@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 1,
+  "rootDependency": {
+    "name": "recharts",
+    "version": "3.10.1"
+  },
+  "packageCount": 44,
+  "localLicenseFileCount": 57,
+  "notes": [
+    "Source asset for offline preparation; generated outputs contain relative paths only.",
+    "Package versions, package.json bytes and license bytes are pinned; dependency upgrades require review.",
+    "Preserve es-toolkit NOTICE and every victory-vendor sub-license, including BSD and MIT sections.",
+    "The upstream license text below is retained byte-for-byte as UTF-8, without adding a final newline."
+  ],
+  "packages": [
+    {
+      "name": "@reduxjs/toolkit",
+      "version": "2.12.0",
+      "packagePath": "node_modules/@reduxjs/toolkit",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "262d7ad9059f4daf92eb9a49f6db537248ed66e219a17235e2c88697eaf682bd",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1069,
+          "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d"
+        }
+      ]
+    },
+    {
+      "name": "@standard-schema/spec",
+      "version": "1.1.0",
+      "packagePath": "node_modules/@standard-schema/spec",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "58e5bd75ddd0684c88b07cd799585cc72a37fd6efb8ab0c936d49e230d5164fb",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1071,
+          "sha256": "653b779005a3a4d64a7288c940f7b9a0e8f0b1e0375f6aa6af9473caf131e564"
+        }
+      ]
+    },
+    {
+      "name": "@standard-schema/utils",
+      "version": "0.3.0",
+      "packagePath": "node_modules/@standard-schema/utils",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "4f71736c9fae8451cd5db82dc15ac175b2518c148a31c0f8838eccaf664a45f0",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1069,
+          "sha256": "9cf2166507311f427e083ef7671da566949391cb745789abcff8bd43ac26d1f1"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-array",
+      "version": "3.2.2",
+      "packagePath": "node_modules/@types/d3-array",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "5ca42ef98f3a66be59b30c9e414338e8d36d96a2690e716a02b4c02366aa1dfb",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-color",
+      "version": "3.1.3",
+      "packagePath": "node_modules/@types/d3-color",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "409ac013405caa33f42ed394d92b357fde96b950ee4d5bbfb7de8d6dbebe6f37",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-ease",
+      "version": "3.0.2",
+      "packagePath": "node_modules/@types/d3-ease",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "7ba99c6eb0a18cfb6dd35693feed30f23cf992d73e60c346840a5acb35ce1e50",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-interpolate",
+      "version": "3.0.4",
+      "packagePath": "node_modules/@types/d3-interpolate",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "751bcbf0a81dc0b5e507e535e29d9c27b7132b74b3b950594391f9eea0b46a76",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-path",
+      "version": "3.1.1",
+      "packagePath": "node_modules/@types/d3-path",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "c59e734c59ae49aba1a5ec160abd11d7f7b6af728751aede04a2e1bce9b9627c",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-scale",
+      "version": "4.0.9",
+      "packagePath": "node_modules/@types/d3-scale",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "190c9e78aa278d267bed85d1a67e3d88d9bc98e27002dc2fa7d7b8d5254f6261",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-shape",
+      "version": "3.2.0",
+      "packagePath": "node_modules/@types/d3-shape",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "da308498b56fee24910fa30141255c3c61fbf9fd1cd5d931f85e06cf52794c57",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-time",
+      "version": "3.0.4",
+      "packagePath": "node_modules/@types/d3-time",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "11b8e23aeea3f0024c293deb135e8d84c4b6013874b11eb8f2659d2db1d53432",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/d3-timer",
+      "version": "3.0.2",
+      "packagePath": "node_modules/@types/d3-timer",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "3be7bbce108834ebe5b901437fd40e87fa57a7c1d52c4aaa33152b71f87f3314",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.2.18",
+      "packagePath": "node_modules/@types/react",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "e6a4794d4b2bd136b02c33752667cc651110b82129d643a7cd238376a99607a9",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "@types/use-sync-external-store",
+      "version": "0.0.6",
+      "packagePath": "node_modules/@types/use-sync-external-store",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "2f810fd3c676283d0498be7fbd9a171ef15fb1e492346a9ec027136e25638c9d",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ]
+    },
+    {
+      "name": "clsx",
+      "version": "2.1.1",
+      "packagePath": "node_modules/clsx",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "a5e616b9883177fb47c1fca22b6a4ab42be1c3ed6ffae8595a5c7d88630eeec2",
+      "licenseFiles": [
+        {
+          "path": "license",
+          "bytes": 1104,
+          "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+        }
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "packagePath": "node_modules/csstype",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "c818b74a9bc1556488b7ec2a65399224738f6619228f9a6491c5c02ca91f849e",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1062,
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+        }
+      ]
+    },
+    {
+      "name": "d3-array",
+      "version": "3.2.4",
+      "packagePath": "node_modules/d3-array",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "f9e9dc28e2a9bfe32a0a80dda5c9f8bb49758ee112f4418e2b5662787f1bf500",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+        }
+      ]
+    },
+    {
+      "name": "d3-color",
+      "version": "3.1.0",
+      "packagePath": "node_modules/d3-color",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "3de1c3c467f09ffc0372c8b765f8981535c22e1d9f944d17a35ee37df1033516",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        }
+      ]
+    },
+    {
+      "name": "d3-ease",
+      "version": "3.0.1",
+      "packagePath": "node_modules/d3-ease",
+      "declaredLicense": "BSD-3-Clause",
+      "packageJsonSha256": "393518c7886852c8cdeae42a54065c3ba54eddb701dd2da98c6d048f92cbc91c",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1504,
+          "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08"
+        }
+      ]
+    },
+    {
+      "name": "d3-format",
+      "version": "3.1.2",
+      "packagePath": "node_modules/d3-format",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "0227cabd3bc479f158f6a7435cafdbdeaed76d35b8917cf3fcfe2c367e46e37e",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "2a6d2d5f32ba0b755ddbc1c833f766e30cdbe6ebe9a6d4e3e24427721f0b63d3"
+        }
+      ]
+    },
+    {
+      "name": "d3-interpolate",
+      "version": "3.0.1",
+      "packagePath": "node_modules/d3-interpolate",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "3e2ce33f9d7072b6bfedbae949c1df546e187994e44b6f4b3795abeb63914613",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        }
+      ]
+    },
+    {
+      "name": "d3-path",
+      "version": "3.1.0",
+      "packagePath": "node_modules/d3-path",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "1aae497436309c84e7db7e5a2a11b1cc78bbba98f26088e4e71079cd725bdc89",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "a09b0d6d76e768fca2085fad05743ee81ddd11946bcda160a3cf5e1081a479aa"
+        }
+      ]
+    },
+    {
+      "name": "d3-scale",
+      "version": "4.0.2",
+      "packagePath": "node_modules/d3-scale",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "75f7dfe869b2e6d1cbecd380f939f218ca046a26313c4e623aa52d6352a9b51b",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        }
+      ]
+    },
+    {
+      "name": "d3-shape",
+      "version": "3.2.0",
+      "packagePath": "node_modules/d3-shape",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "c3d084a64bc3c85c407db4282be588a42484c4dc2639bb0a21424fe29ff38335",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        }
+      ]
+    },
+    {
+      "name": "d3-time",
+      "version": "3.1.0",
+      "packagePath": "node_modules/d3-time",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "f145cd8f545cc98527d75c3717be9159616680fe5ba312c350828b44857e1ee6",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        }
+      ]
+    },
+    {
+      "name": "d3-time-format",
+      "version": "4.1.0",
+      "packagePath": "node_modules/d3-time-format",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "98ffed8c2cf40a4d279b4346b73c09e38cbce40a96fa11caa69a174dea7cbf55",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        }
+      ]
+    },
+    {
+      "name": "d3-timer",
+      "version": "3.0.1",
+      "packagePath": "node_modules/d3-timer",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "d2b6cb2200728b60982aa30c4caf787f0bda2c066ef9176282ab54ba656403cb",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        }
+      ]
+    },
+    {
+      "name": "decimal.js-light",
+      "version": "2.5.1",
+      "packagePath": "node_modules/decimal.js-light",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "d20b9fb64b091a9bb3f06d9aba27a1aa8b2e391aac84082b37875255b1989975",
+      "licenseFiles": [
+        {
+          "path": "LICENCE.md",
+          "bytes": 1110,
+          "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4"
+        }
+      ]
+    },
+    {
+      "name": "es-toolkit",
+      "version": "1.52.0",
+      "packagePath": "node_modules/es-toolkit",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "b8808802ac9c4d7ac8178d727f29d32c4e35449bc1ba8138aeea9b1265869a14",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1077,
+          "sha256": "51f3674294d988d89dbebd31273baaeb3c697a15482d9699b14d1fded2e132a7"
+        },
+        {
+          "path": "NOTICE",
+          "bytes": 1698,
+          "sha256": "11ee5e3bce9b0a4dde7f73811caf98978e710228d891c3111ad8ef8d7d2a916f"
+        }
+      ]
+    },
+    {
+      "name": "eventemitter3",
+      "version": "5.0.4",
+      "packagePath": "node_modules/eventemitter3",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "0dd9bc32a77be8238fad41d58aa5b24ccdfee79d8bcf4cbee85f16e3d15c1658",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1082,
+          "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf"
+        }
+      ]
+    },
+    {
+      "name": "immer",
+      "version": "11.1.18",
+      "packagePath": "node_modules/immer",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "0d3b8584ed366d3ac74e335e7951395b94cf7fa3ef2ba36ace152995b14100b7",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1074,
+          "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+        }
+      ]
+    },
+    {
+      "name": "internmap",
+      "version": "2.0.3",
+      "packagePath": "node_modules/internmap",
+      "declaredLicense": "ISC",
+      "packageJsonSha256": "b94bd846fb96743a86d527a3d0a3ad1bd5b1ffd3cd1109e6b115ebaef59dd195",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 726,
+          "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.2.8",
+      "packagePath": "node_modules/react",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "e40c3ed9b633c9ecf188e09a4be309780a1ea0a9c068278a30ff6a27e7b2dbb6",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.2.8",
+      "packagePath": "node_modules/react-dom",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "7c82f0967114d4b5d38b1f07e543af87c9919e8d3243f9604004819319cb2200",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-is",
+      "version": "19.2.8",
+      "packagePath": "node_modules/react-is",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "1063e506e83fedbdc2e2b4a12a2ac507cf841470382094e4e318cf2513a2bf66",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-redux",
+      "version": "9.3.0",
+      "packagePath": "node_modules/react-redux",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "d18b20b272ab6d55d7327b1bd40905006042496b49ac1ae9c6db4ea7d83224cc",
+      "licenseFiles": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1086,
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+        }
+      ]
+    },
+    {
+      "name": "recharts",
+      "version": "3.10.1",
+      "packagePath": "node_modules/recharts",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "ce984e902c00b9dc710888fb610c37db2114317d5699d6560868b2b43cc57ad5",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1084,
+          "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5"
+        }
+      ]
+    },
+    {
+      "name": "redux",
+      "version": "5.0.1",
+      "packagePath": "node_modules/redux",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "90578eb24fb0205ed82405282ecb69322a95b11d1e3ce6a7a6fd9e9fd9ce9aca",
+      "licenseFiles": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1086,
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+        }
+      ]
+    },
+    {
+      "name": "redux-thunk",
+      "version": "3.1.0",
+      "packagePath": "node_modules/redux-thunk",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "b7f435b34572d66b0da22612928c9665bd30ff9ad067891c3f847fd9bdb24dde",
+      "licenseFiles": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1107,
+          "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe"
+        }
+      ]
+    },
+    {
+      "name": "reselect",
+      "version": "5.2.0",
+      "packagePath": "node_modules/reselect",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "13e02342a21880287b347c6f05091de2582d26b3113b8aea758b410fc6123a60",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1093,
+          "sha256": "e98047a5dee068b33f82e8c4b7a63037b5108c93393198efd4097753004af5dd"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.27.0",
+      "packagePath": "node_modules/scheduler",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "393bb96b7e481bf50189a1a02c7e0e7f4d01acba5abc6fbe7d214638624462fc",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "tiny-invariant",
+      "version": "1.3.3",
+      "packagePath": "node_modules/tiny-invariant",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "27d6815b2577f3e7184f5c69af817377a2e6a0390a68acdfd852402f81d8ba2c",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1073,
+          "sha256": "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f"
+        }
+      ]
+    },
+    {
+      "name": "use-sync-external-store",
+      "version": "1.6.0",
+      "packagePath": "node_modules/use-sync-external-store",
+      "declaredLicense": "MIT",
+      "packageJsonSha256": "dfdead719ce161e1c5edbf0fca0ce0e7d70ba87c8a8f249856c0afde81595f24",
+      "licenseFiles": [
+        {
+          "path": "LICENSE",
+          "bytes": 1088,
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "victory-vendor",
+      "version": "37.3.6",
+      "packagePath": "node_modules/victory-vendor",
+      "declaredLicense": "MIT AND ISC",
+      "packageJsonSha256": "e895a58a809f2daabdc5452f332a6a319ec0e83ec3b63654dd098ee1e10ce5d0",
+      "licenseFiles": [
+        {
+          "path": "lib-vendor/d3-array/LICENSE",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        },
+        {
+          "path": "lib-vendor/d3-color/LICENSE",
+          "bytes": 731,
+          "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+        },
+        {
+          "path": "lib-vendor/d3-ease/LICENSE",
+          "bytes": 1504,
+          "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08"
+        },
+        {
+          "path": "lib-vendor/d3-format/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-interpolate/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-path/LICENSE",
+          "bytes": 731,
+          "sha256": "0ab21426fad1e8b819ea8ab4c7faf5a24d4fca9c01572fe722490d600bba0d22"
+        },
+        {
+          "path": "lib-vendor/d3-scale/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-shape/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-time/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-time-format/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-timer/LICENSE",
+          "bytes": 731,
+          "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+        },
+        {
+          "path": "lib-vendor/d3-voronoi/LICENSE",
+          "bytes": 2656,
+          "sha256": "ad6cf57648385d6c40a29f73c55e42922dd793823df5ea265ccd834873bf09b9"
+        },
+        {
+          "path": "lib-vendor/internmap/LICENSE",
+          "bytes": 726,
+          "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f"
+        }
+      ]
+    }
+  ],
+  "upstreamLicenses": [
+    {
+      "packageName": "victory-vendor",
+      "packageVersion": "37.3.6",
+      "path": "LICENSE.upstream.txt",
+      "license": "MIT",
+      "sourceUrl": "https://raw.githubusercontent.com/FormidableLabs/victory/v37.3.6/LICENSE.txt",
+      "bytes": 1626,
+      "sha256": "34dee5fd5e5cc756efb5ad4d64652bce719bdf5e900ca5d7538253e737930bc4",
+      "text": "The MIT License (MIT)\n\nCopyright (c) 2015-2020 Formidable Labs.\n\nCopyright (c) 2016-2020 Alexey Svetliakov <https://github.com/asvetliakov>,\nsnerks <https://github.com/snerks>, Krzysztof Cebula <https://github.com\nHavret>, Vitaliy Polyanskiy <https://github.com/alreadyExisted>, James Lismore\n<https://github.com/jlismore>, Stack Builders <https://github.com\nstackbuilders>, Esteban Ibarra <https://github.com/ibarrae>, Dominic Lee\n<https://github.com/dominictwlee>, Dave Vedder <https://github.com\nveddermatic>, Alec Flett <https://github.com/alecf> and potentially other\nDefinitelyTyped contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software."
+    }
+  ]
+}

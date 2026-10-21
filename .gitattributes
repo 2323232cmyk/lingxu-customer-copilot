@@ -1,0 +1,26 @@
+* text=auto eol=lf
+
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.svg text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.ps1 text eol=crlf
+
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.zip binary
+
+# Upstream notices are checksum-pinned; retain their original bytes on every OS.
+native-resources/wechat-reader/* -text whitespace=cr-at-eol
+native-resources/voice-licenses/* -text whitespace=cr-at-eol
